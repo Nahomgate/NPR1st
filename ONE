@@ -1,0 +1,8 @@
+m={'nike':50,'jordan':60,'anbesa':70}
+n=list(m)
+print(n)
+x=input('select the shoe you want: ')
+if x == 'm[0]' or 'm[1]' or 'm[2]':
+    print(f'{x} is the shoe you selected and the price is {m[x]}')
+elif not x == 'm[0]' or 'm[1]' or 'm[2]':
+    print('the shoe you selected is not available')
